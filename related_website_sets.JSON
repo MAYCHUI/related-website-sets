@@ -1,4 +1,32 @@
+"curl "https://www.courtlistener.com/api/rest/v4/investments/?redacted=True" \
+  --header 'Ủy quyền: Mã thông báo <mã thông báo của bạn tại đây>'
 {
+  "tiếp theo": "https://www.courtlistener.com/api/rest/v4/investments/?page=2&redacted=True&cursor=cD0xMjA5NjAyMg%3D%3D",
+  "trước": null,
+  "kết quả": [
+    {
+      "resource_uri": "https://www.courtlistener.com/api/rest/v4/investments/5385644/",
+      "id": 5385644,
+      "ngày_tạo": "2023-04-17T11:03:22.404170-07:00",
+      "ngày_sửa_đổi": "2023-04-17T11:03:22.404185-07:00",
+      "page_number": 4,
+      "mô tả": "Cổ phiếu phổ thông",
+      "đã chỉnh sửa": đúng,
+      "income_during_reporting_period_code": "G",
+      "income_during_reporting_period_type": "Cổ tức",
+      "mã_giá_trị_gross": "P2",
+      "phương pháp giá trị gộp": "T",
+      "giao_dịch_trong_thời_gian_báo_cáo": "",
+      "transaction_date_raw": "",
+      "ngày_giao_dịch": null,
+      "mã_giá_trị_giao_dịch": "",
+      "transaction_gain_code": "",
+      "đối tác_giao_dịch": "",
+      "has_inferred_values": sai,
+      "financial_disclosure": "https://www.courtlistener.com/api/rest/v4/financial-disclosures/34187/"
+    },
+..."
+ https://www.courtlistener.com/help/api/rest/financial-disclosures/#:~:text=curl%20%22https%3A//www,34187/%22%0A%20%20%20%20%7D%2C%0A.../index.mded{
   "sets": [
     {
       "contact": "oterrell28@gmail.com",
